@@ -5,7 +5,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-Vue.component(Button.name, Button);
+Vue.use(Button);
 
 new Vue({
   render: h => h(App),
